@@ -1,0 +1,7 @@
+CREATE TABLE APP_USER (
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    last_name VARCHAR NOT NULL,
+    company VARCHAR NOT NULL,
+    insert_date DATETIME NOT NULL
+);
