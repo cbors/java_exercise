@@ -1,13 +1,13 @@
-package com.interview.exercise.entities;
+package com.interview.exercise.dto;
 
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
-public class UserDto {
+public class CourierDto {
 
     private String name;
     private String surname;
-    private RoleDto role;
+    private UserDto userDto;
 }

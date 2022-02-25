@@ -1,4 +1,7 @@
-package com.interview.exercise.entities;
+package com.interview.exercise.mappers;
+
+import com.interview.exercise.dto.RoleDto;
+import com.interview.exercise.entities.Role;
 
 public interface RoleMapper {
 

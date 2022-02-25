@@ -10,19 +10,15 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
-public class AppUser {
+public class Courier {
 
     @Id
     @GeneratedValue
     private Long id;
     private String name;
     private String lastName;
-    private String company;
-    private LocalDateTime insertTime;
 
     @OneToOne
-    private Role role;
+    private AppUser appUser;
 
-    @OneToMany
-    public List<Package> packages;
 }
